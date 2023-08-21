@@ -1,0 +1,129 @@
+footer {
+  width: 100%;
+  height: 393px;
+  background: #1d1c1e;
+}
+
+.footer__logo {
+  width: 202px;
+  height: 27px;
+}
+
+.footer__icons a {
+  color: #fff;
+  margin-left: 16px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.footer__links {
+  color: #fff;
+  margin-left: 42px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+.footer__content {
+  padding-top: 144px;
+  margin-bottom: 40px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 0;
+}
+footer {
+  width: 100%;
+  height: 393px;
+  background: #1d1c1e;
+}
+
+.footer__logo {
+  width: 202px;
+  height: 27px;
+}
+.footer__icons a {
+  color: #fff;
+  margin-left: 16px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+}
+.footer__links {
+  color: #fff;
+  margin-left: 42px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+.footer__content {
+  padding-top: 144px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.footer__bottom {
+  justify-content: space-between;
+}
+
+.footer__icons {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__contact {
+  width: 350px;
+  height: 78px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.footer__contact--left {
+  margin-right: 197px;
+}
+.footer__contact span {
+  font-weight: normal;
+}
+
+@media screen and (min-width: 1200px) {
+  .section__card::before {
+    content: "";
+    position: absolute;
+    top: 325px;
+    right: unset;
+    bottom: unset;
+    width: 1006px;
+    height: 594px;
+    left: 0px;
+    top: 475px;
+    z-index: -2;
+  }
+  .section__skills::after {
+    content: "";
+    position: absolute;
+    top: 1873px;
+    right: 0px;
+    bottom: unset;
+    left: unset;
+    width: 1006px;
+    height: 594px;
+    z-index: -2;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    overflow: hidden;
+  }
+}
+
+.footer__location {
+  margin-top: 348px;
+}
+
+.footer__contact-page {
+  margin-top: 0px;
+}

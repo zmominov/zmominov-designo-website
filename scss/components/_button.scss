@@ -1,0 +1,64 @@
+.underline:hover {
+  text-decoration: underline;
+}
+.white-btn {
+  color: $dark-grey;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: #fff;
+  padding: 1.8rem 2.4rem;
+}
+.white-btn:hover {
+  transition: 0.4s;
+  transform: translateY(-10px);
+  color: #fff;
+  font-family: Jost;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: $light-peach;
+}
+.white-btn:active {
+  opacity: 0.8;
+}
+.orange-btn {
+  border-radius: 8px;
+  background: $peach-color;
+  color: #fff;
+  font-family: "Jost" sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.orange-btn:hover {
+  transition: 0.4s;
+  transform: translateY(-10px);
+  background: $light-peach;
+}
+.orange-btn:active {
+  opacity: 0.8;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #ffad9b;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn-peach {
+  background: #e7816b;
+  color: #fff;
+}
